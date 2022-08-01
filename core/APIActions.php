@@ -2,6 +2,9 @@
 
 namespace core\APIActions;
 
+/**
+ * Применяет методы Telegram BOT API при соответствующем воде от пользователя
+ */
 class APIActions
 {
     /**

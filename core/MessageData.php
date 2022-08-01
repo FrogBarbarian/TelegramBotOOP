@@ -4,6 +4,9 @@ namespace core\MessageData;
 
 use core\HTMLDataCatcher\HTMLDataCatcher;
 
+/**
+ * Конструирует посты в связи с запросом пользователя
+ */
 class MessageData
 {
     private HTMLDataCatcher $HTMLDataCatcher;

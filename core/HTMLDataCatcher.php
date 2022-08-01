@@ -2,6 +2,9 @@
 
 namespace core\HTMLDataCatcher;
 
+/**
+ * Взаимодействует со страничкой t.me для получения каких либо данных из HTML страницы
+ */
 class HTMLDataCatcher
 {
     protected string $channelUrl = 'https://t.me/s/channelUrl?q='; //URL целевого канала с GET параметром для поиска по каналу
